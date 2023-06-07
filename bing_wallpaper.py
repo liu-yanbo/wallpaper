@@ -5,8 +5,8 @@
 import requests
 import os
 
-file_readme = '·/README.md'
-file_bing = './wallpaper.md'
+file_readme = 'README.md'
+file_bing = 'wallpaper.md'
 
 bing_title = '## Bing Wallpaper'
 bing_uri = 'https://cn.bing.com'
