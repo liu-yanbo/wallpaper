@@ -16,6 +16,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run script
-        run: sudo python3 bing_wallpaper.py >> log.log
+        run: ll&&sudo python3 bing_wallpaper.py >> log.log
       - name: Print log
       - run: tail -f log.log -n100
