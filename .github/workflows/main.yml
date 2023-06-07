@@ -2,7 +2,7 @@ name: Daily Workflow
 on:
   schedule:
     # Runs daily at midnight UTC
-    - cron: "*/5 * * * *"
+    - cron: "* * * * *"
 jobs:
   run_script:
     runs-on: ubuntu-latest
