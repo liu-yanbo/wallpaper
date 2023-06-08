@@ -18,6 +18,4 @@ jobs:
       - name: lsiiiiiiiiiijiiiiiiiiiiiiii
         run: ls -l
       - name: Run script
-        run: sudo python3 bing_wallpaper.py >> log.log
-      - name: Print log
-        run: tail -f log.log  -n100
+        run: sudo python3 bing_wallpaper.py
