@@ -20,4 +20,4 @@ jobs:
       - name: Run script
         run: ls -l&&sudo python3 bing_wallpaper.py >> log.log
       - name: Print log
-        run: tail -f log.log -n100
+        run: tail -f log.log  -n100
