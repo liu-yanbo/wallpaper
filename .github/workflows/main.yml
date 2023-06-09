@@ -19,3 +19,5 @@ jobs:
         run: ls -l
       - name: Run script
         run: sudo python3 bing_wallpaper.py
+      - name: cat README.md
+        run: cat README.md  
